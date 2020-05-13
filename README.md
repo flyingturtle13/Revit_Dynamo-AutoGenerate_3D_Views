@@ -89,21 +89,32 @@ Overall graph view
    
 ## Running Script & User Implementation Instructions
 1. Clone or download project. </br>
-2. In own Revit project or Pile Cap Location & Offset Export example in Model Example folder, open Dynamo and open *Structural-Pile_Cap_Location_And_Offset.dyn*.
-3. Ensure Clockwork package is installed. If not, use Package --> Search for Package --> Clockwork in Dynamo.
-4. As described in ***Dynamo Script Layout 1.***, use 'File Path' node to select included Excel file (*Pile_Cap_Schedule-Dynamo.xlsx*) and select a reference level in *Level* node (select level pile caps are associated to in model).
-5. Modify or add search 'String' node(s) for pile cap foundations and column types as described in ***Dynamo Script layout 2.*** and ***Dynamo Script layout 4.***
-6. Select *Run* and check Excel spreadsheet output.</br>
-   a. Raw output from Dynamo script specified sheet in User Input.
+2. Using one of the example models (vertical multi-story structure and long horizontal, multi-zone structure) in Example Models folder, open the Revit file and associated Excel file.
+3. In the Excel file, update the view names to desired naming convention in the View_Name sheet.
+   <p align="center">
+    <img src="https://user-images.githubusercontent.com/44215479/81877144-39959400-9539-11ea-831f-d3a66e83344d.png" width="400">
+   </p>
+4. Still in Excel file, update coordinates with desired values for X-Min, X-Max, Z-Min, X-Max, Y-Max, Z-Max in respective sheets corresponding row in View_Name sheet.  User will most likely need to refere to the model plan views to take measurements.  
+   <p align="center">
+    <img src="https://user-images.githubusercontent.com/44215479/81876408-7791b880-9537-11ea-968a-44b57677f09a.png" width="400">
+   </p>
+   **Note:**
+   1. In this case, the project units are in feet so enter values for decimal feet.
+   2. Coordinates to be inputted are based on project Inernal Origin so make sure to locate Internal Origin using Project Base Point or Survey Point.
       <p align="center">
-       <img src="https://user-images.githubusercontent.com/44215479/81785613-58e9de00-94b3-11ea-9017-8a953f7dd090.png" width="600">
+       <img src="https://user-images.githubusercontent.com/44215479/81876274-1a960280-9537-11ea-8178-fbaf0e0232ea.png" width="400">
       </p>
-   b. Auto-generated values for distribution and for structural engineer to add loads at top of pile caps.
+   3. Hint: use elevation views as reference to set Z-coordinate value for minimums and maximums
       <p align="center">
-       <img src="https://user-images.githubusercontent.com/44215479/81785906-c5fd7380-94b3-11ea-8c5f-207235d3d3bc.png" width="1000">
+       <img src="https://user-images.githubusercontent.com/44215479/81876511-bc1d5400-9537-11ea-88f4-b86f4a817c25.png" width="400">
       </p>
-   c. QC check for correct number of pile caps and types being reported for quantity takeoff.
-      <p align="center">
-       <img src="https://user-images.githubusercontent.com/44215479/81786055-0826b500-94b4-11ea-8761-f2781384420b.png" width="600">
-      </p>
+5. After Excel file setup is complete, open the Dynamo add-in in Revit and select Dynamo script included here.
+3. Ensure Clockwork and Rhythm packages are installed. If not, use Package --> Search for Package --> Clockwork or Rhtyhm in Dynamo.
+4. As described in ***Dynamo Script Layout 1.***, use 'File Path' node to select included Excel file (*Project02Example-ViewsCreation-User_Input.xlsx*) or file where modifications were done in (2.). Also select a base 3D view in 'Views' node per ***Dynamo Script Layout 1.*** 
+   **Note:**
+   1. View properties in base 3D view will persist in duplicated 3D views.</br>
+6. Select *Run* and check Revit for results.</br> 
+   <p align="center">
+    <img src="https://user-images.githubusercontent.com/44215479/81877300-88dbc480-9539-11ea-8b61-66fbeef9e7a3.png" width="600">
+   </p> 
 
