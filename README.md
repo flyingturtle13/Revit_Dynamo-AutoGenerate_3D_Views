@@ -94,27 +94,27 @@ Overall graph view
    <p align="center">
     <img src="https://user-images.githubusercontent.com/44215479/81877144-39959400-9539-11ea-831f-d3a66e83344d.png" width="400">
    </p>
-4. Still in Excel file, update coordinates with desired values for X-Min, X-Max, Z-Min, X-Max, Y-Max, Z-Max in respective sheets corresponding row in View_Name sheet.  User will most likely need to refere to the model plan views to take measurements.  
+4. Still in Excel file, update coordinates with desired values for X-Min, X-Max, Z-Min, X-Max, Y-Max, Z-Max in respective sheets corresponding row in View_Name sheet. User will most likely need to refere to the model plan views to take measurements.
    <p align="center">
     <img src="https://user-images.githubusercontent.com/44215479/81876408-7791b880-9537-11ea-968a-44b57677f09a.png" width="400">
-   </p>
-   **Note:**
-   1. In this case, the project units are in feet so enter values for decimal feet.
-   2. Coordinates to be inputted are based on project Inernal Origin so make sure to locate Internal Origin using Project Base Point or Survey Point.
-      <p align="center">
-       <img src="https://user-images.githubusercontent.com/44215479/81876274-1a960280-9537-11ea-8178-fbaf0e0232ea.png" width="400">
-      </p>
-   3. Hint: use elevation views as reference to set Z-coordinate value for minimums and maximums
-      <p align="center">
-       <img src="https://user-images.githubusercontent.com/44215479/81876511-bc1d5400-9537-11ea-88f4-b86f4a817c25.png" width="400">
-      </p>
+   </p></br>
+   Note: </br>
+    1. In this case, the project units are in feet so enter values for decimal feet.</br>
+    2. Coordinates to be inputted are based on project Inernal Origin so make sure to locate Internal Origin using Project Base Point or Survey Point.
+       <p align="center">
+        <img src="https://user-images.githubusercontent.com/44215479/81876274-1a960280-9537-11ea-8178-fbaf0e0232ea.png" width="600">
+       </p>
+    3. Hint: use elevation views as reference to set Z-coordinate value for minimums and maximums
+       <p align="center">
+        <img src="https://user-images.githubusercontent.com/44215479/81877677-8f1e7080-953a-11ea-8eb2-9d5839776f00.png" width="400">
+       </p>
 5. After Excel file setup is complete, open the Dynamo add-in in Revit and select Dynamo script included here.
 3. Ensure Clockwork and Rhythm packages are installed. If not, use Package --> Search for Package --> Clockwork or Rhtyhm in Dynamo.
-4. As described in ***Dynamo Script Layout 1.***, use 'File Path' node to select included Excel file (*Project02Example-ViewsCreation-User_Input.xlsx*) or file where modifications were done in (2.). Also select a base 3D view in 'Views' node per ***Dynamo Script Layout 1.*** 
+4. As described in ***Dynamo Script Layout 1.***, use 'File Path' node to select included Excel file (*Project02Example-ViewsCreation-User_Input.xlsx*) or file where modifications were done in (2.). Also select a base 3D view in 'Views' node per ***Dynamo Script Layout 1.***. </br>
    **Note:**
    1. View properties in base 3D view will persist in duplicated 3D views.</br>
 6. Select *Run* and check Revit for results.</br> 
    <p align="center">
-    <img src="https://user-images.githubusercontent.com/44215479/81877300-88dbc480-9539-11ea-8b61-66fbeef9e7a3.png" width="600">
+    <img src="https://user-images.githubusercontent.com/44215479/81877300-88dbc480-9539-11ea-8b61-66fbeef9e7a3.png" width="800">
    </p> 
 
