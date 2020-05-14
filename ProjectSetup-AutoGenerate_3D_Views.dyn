@@ -1808,8 +1808,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4359.5960696851362,
-        "Y": 964.60488222836
+        "X": 4606.3876617284832,
+        "Y": 873.4359442840032
       },
       {
         "ShowGeometry": true,
@@ -1818,8 +1818,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4040.78349854999,
-        "Y": 965.14818867564838
+        "X": 4204.5315519498681,
+        "Y": 872.0020236207331
       },
       {
         "ShowGeometry": true,
@@ -2101,12 +2101,12 @@
           "f04980f524784c85976fd8a504f10527",
           "2b3cbc47503b4a288ef2ef665e3c2a78"
         ],
-        "Left": 4020.08584112162,
-        "Top": 818.12393082434733,
-        "Width": 273.59999999999991,
-        "Height": 265.22425785130105,
+        "Left": 4194.5315519498681,
+        "Top": 143.24493859321061,
+        "Width": 275.08876666824381,
+        "Height": 846.95708502752257,
         "FontSize": 14.0,
-        "InitialTop": 848.12393082434733,
+        "InitialTop": 173.24493859321061,
         "InitialHeight": 262.02425785130106,
         "TextblockHeight": 20.0,
         "Background": "#FFFFAA45"
@@ -2118,19 +2118,19 @@
           "a0ad13823174423f98458492ec830659",
           "1e7a23d22d104a88a3198834ec1af9ba"
         ],
-        "Left": 4344.1071376766195,
-        "Top": 816.23882386035689,
+        "Left": 4503.9007368553812,
+        "Top": 141.78788830116002,
         "Width": 291.20000000000016,
-        "Height": 240.16605836800312,
+        "Height": 823.44805598284313,
         "FontSize": 14.0,
-        "InitialTop": 846.23882386035689,
+        "InitialTop": 171.78788830116002,
         "InitialHeight": 263.36605836800311,
         "TextblockHeight": 20.0,
         "Background": "#FFA4E1FF"
       },
       {
         "Id": "6be46a35ba74467495fdb5022915da19",
-        "Title": "BACKEND PROCESS - SET SECTION BOX FOR VIEW",
+        "Title": "BACKEND PROCESS - SET SECTION BOX DIMENSIONS FOR VIEW",
         "Nodes": [
           "19b8c2c8129a434abf0177be6d923f69",
           "c19242a40eb145a58141438b483571ce",
@@ -2453,7 +2453,7 @@
       },
       {
         "Id": "8a0e5ef3001d40a98dfd2e262571d9fa",
-        "Title": "SETTING SECTION BOX BOUNDARIES@ LEVELS\r\n\r\nINPUT: MIN & MAX COORDINATES FROM EXCEL FILE \r\n                                       |\r\n                                       |\r\n                                      \\/\r\nOUTPUT: BOUNDING BOX TO CREATE SECTION BOX IN 3D VIEW",
+        "Title": "SETTING SECTION BOX DIMENSIONS PER 3D VIEW CREATED\r\n\r\nINPUT: MIN & MAX COORDINATES FROM EXCEL FILE \r\n                                       |\r\n                                       |\r\n                                      \\/\r\nOUTPUT: BOUNDING BOX TO CREATE SECTION BOX IN 3D VIEW",
         "Nodes": [],
         "Left": 2169.7852906972817,
         "Top": 1022.8842631111888,
@@ -2469,8 +2469,8 @@
         "Id": "2b3cbc47503b4a288ef2ef665e3c2a78",
         "Title": "APPLY SECTION BOX TO 3D VIEWS BY LEVEL",
         "Nodes": [],
-        "Left": 4030.08584112162,
-        "Top": 848.12393082434733,
+        "Left": 4206.0203186181116,
+        "Top": 173.24493859321061,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -2483,8 +2483,8 @@
         "Id": "f04980f524784c85976fd8a504f10527",
         "Title": "Rhythm Package",
         "Nodes": [],
-        "Left": 4100.24080094494,
-        "Top": 925.56965259906042,
+        "Left": 4263.9888543448187,
+        "Top": 832.42348754414513,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -2567,8 +2567,8 @@
         "Id": "1e7a23d22d104a88a3198834ec1af9ba",
         "Title": "SEE RESULT PARAMETERS OF ADDED VIEWS TO PROJET",
         "Nodes": [],
-        "Left": 4354.1071376766195,
-        "Top": 846.23882386035689,
+        "Left": 4513.9007368553812,
+        "Top": 171.78788830116002,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -2704,8 +2704,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": 459.95479253884287,
-    "Y": 165.28765181911541,
-    "Zoom": 0.13331323166878228
+    "X": 83.084404240996037,
+    "Y": 253.89206647927978,
+    "Zoom": 0.14491205340719152
   }
 }
