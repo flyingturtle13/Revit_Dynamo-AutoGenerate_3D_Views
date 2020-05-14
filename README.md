@@ -97,14 +97,14 @@ Overall graph view
 4. Still in Excel file, update coordinates with desired values for X-Min, X-Max, Z-Min, X-Max, Y-Max, Z-Max in respective sheets corresponding row in View_Name sheet. User will most likely need to refere to the model plan views to take measurements.
    <p align="center">
     <img src="https://user-images.githubusercontent.com/44215479/81876408-7791b880-9537-11ea-968a-44b57677f09a.png" width="400">
-   </p></br>
-   Note: </br>
-    1. In this case, the project units are in feet so enter values for decimal feet.</br>
-    2. Coordinates to be inputted are based on project Inernal Origin so make sure to locate Internal Origin using Project Base Point or Survey Point.
+   </p>
+      Note: </br>
+      (1) In this case, the project units are in feet so enter values for decimal feet.</br>
+      (2) Coordinates to be inputted are based on project Inernal Origin so make sure to locate Internal Origin using Project Base Point or Survey Point.
        <p align="center">
         <img src="https://user-images.githubusercontent.com/44215479/81876274-1a960280-9537-11ea-8178-fbaf0e0232ea.png" width="600">
        </p>
-    3. Hint: use elevation views as reference to set Z-coordinate value for minimums and maximums
+      (3) Hint: use elevation views as reference to set Z-coordinate value for minimums and maximums
        <p align="center">
         <img src="https://user-images.githubusercontent.com/44215479/81877677-8f1e7080-953a-11ea-8eb2-9d5839776f00.png" width="400">
        </p>
